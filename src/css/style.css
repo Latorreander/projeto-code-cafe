@@ -1,7 +1,7 @@
+/* ---esse font size de 62.5% irá facilitar quando fortrabalhar com rem--- */
 html {
   font-size: 62.5%;
 }
-
 
 body {
   max-width: 1440px;
@@ -23,7 +23,7 @@ body {
 
 .cabecalho h1 {
   font-size: 0;
-} 
+}
 
 .cabecalho nav {
   display: inline-block;
@@ -93,17 +93,17 @@ body {
   height: 600px;
   width: 50%;
 }
-.secao-ladrilhos .grao {
+.secao-ladrilhos .pequena {
   background: url("../images/3.jpg") center center no-repeat;
   height: 300px;
   width: 25%;
 }
-
-.secao-ladrilhos .pequena {
+.secao-ladrilhos .grao {
   background: url("../images/2.jpg") center center no-repeat;
   height: 300px;
   width: 25%;
 }
+
 .secao-ladrilhos .media {
   background: url("../images/1.jpg") center center no-repeat;
   height: 300px;
@@ -177,8 +177,8 @@ body {
 }
 
 .rodape .redes-sociais {
- float: right;
- clear: both;
+  float: right;
+  clear: both;
 }
 
 .rodape .conteudo-de-baixo {

@@ -26,15 +26,11 @@
     font-size: 2rem;
   }
   .rodape {
-    height: 643px;
     width: 100%;
 }
   .rodape .logo {
     display: block;
     margin: 0 auto;
-  }
-  .rodape .redes-sociais a{
-
   }
 
   .rodape ul li {
@@ -44,15 +40,16 @@
   }
 
   .rodape ul {
-    position: absolute;
+   text-align: center;
     margin: 0 auto;
-    top: 240px;
+  
   }
   .rodape ul li a {
     font-size: 2rem;
   }
 
-  .rodape .conteudo-de-baixo .copyright {
+  .rodape .conteudo-de-baixo div {
+    display: block;
     position: absolute;
     bottom: 72px;
     left: 130px;
@@ -62,7 +59,7 @@
   }
 }
 @media (max-width: 425px) {
-  .cabecalho .logo {
+  .cabecalho .logo  {
     display: block;
     margin: 0 auto;
   }
